@@ -2,6 +2,7 @@ Descriptors
 =================
 
 activity - the activity the subject was performing when the given measurements were taken.
+
 subjectid - the id of a given subject from which the data was collected. 
 
 
