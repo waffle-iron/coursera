@@ -1,0 +1,11 @@
+# Getting and Cleaning Data
+### week 4
+
+run_analysis.R reads in the relevant files from the UCI HAR dataset directories give to use for this assignment. It merges together the test and train datasets into one dataframe called df. It adds the subjectid and actictivity each row coresponds to.
+
+It then adds feautre names from the featuers.txt file and narrows down only those features contianing "std()" or "mean()"
+
+Further, it replaces activity codes with the english decriptors provided in the 
+activity_labels lookup table.
+
+Finally, it generates a new dataframe (df_summary) containing the means of each festure by actvity and subject ID. 
